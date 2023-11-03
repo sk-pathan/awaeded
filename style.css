@@ -227,7 +227,6 @@ html,body{
 
   @media (max-width:1026px) {
     .cardcontainer{
-      padding: 10px;
       flex-wrap: wrap;
       display: flex;
       flex-direction: column;
@@ -235,6 +234,7 @@ html,body{
       align-items: center;
     }
     .card{
+      padding: 10px;
       position: relative;
       width: 100vw;
       overflow: hidden;
@@ -273,5 +273,9 @@ html,body{
 
     .imgcontainer img{
       width: 37vw;
+    }
+    #logo svg,#logo img{
+      width: 10px;
+      height: 10px;
     }
   }
