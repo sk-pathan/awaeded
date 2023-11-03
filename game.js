@@ -30,7 +30,7 @@ ScrollTrigger.refresh();
 const order=gsap.timeline()
 
 order.to("#logo svg,.menu",{
-    y:-90,
+    y:"-10vw",
     duration:.3,
     opacity:0,
     scrollTrigger:{
@@ -45,7 +45,7 @@ order.to("#logo svg,.menu",{
     }
 })
 order.to("#logo img",{
-    y:-90,
+    y:"-10vw",
     duration:0.3,
     scrollTrigger:{
         trigger:".center",
