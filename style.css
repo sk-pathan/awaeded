@@ -223,12 +223,6 @@ html,body{
   #page1{
     height: 80vw;
   }
-  .b{
-    display: flex;
-    padding: 20px;
-    margin-bottom: 10px;
-    justify-content: space-between;
-  }
 
 
   @media (max-width:1026px) {
