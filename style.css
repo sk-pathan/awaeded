@@ -254,10 +254,6 @@ html,body{
     .pera span{
       width: 100%;
     }
-    .nav-right{
-      width: 25vw;
-
-    }
     nav .menu{
       display: none;
     }
@@ -274,7 +270,11 @@ html,body{
     .imgcontainer img{
       width: 37vw;
     }
-    #logo svg,#logo img{
+    #logo svg{
+      width: 10px;
+      height: 10px;
+    }
+    #logo img{
       width: 10px;
       height: 10px;
     }
