@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@100&family=Lora:ital,wght@1,500;1,600&family=Poppins:wght@300;800&display=swap');
+*{
+    padding: 0px;
+    margin: 0%;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+  .head{
+    line-height: 11vw;
+    text-align: center;
+    font-size: 15vw;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    
+  }
+  
+  .center{
+    margin-top: 20%;
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center ;
+  }
+  .img{
+    width: 100vw;
+
+  }
+  .rotation{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 100px;
+  }
+  /* Add more CSS for styling as needed */
+  .cardcontainer{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+  }
+  .card{
+    position: relative;
+    width: 30%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .card img{
+    width: 100%;
+  }
+  .page3{
+    width:100vw;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .shopbox{
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .shopbox img{
+    width: 100%;
+  }
+  .shopbox h6{
+    font-weight: 600;
+    text-align: center;
+  }
+  .flex{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+  }
+  .flex div p{
+    padding: 20px;
+    font-weight: 500;
+  }
+  .content{
+    padding: 10px;
+    font-size: 30px;
+  }
+  button{
+    background: black;
+    color: white;
+    padding: 20px 80px;
+    border-radius: 50px;
+    border: none;
+  }
+  .imgcontainer{
+    width: 50vw;
+    display: flex;
+  }
+  .imgcontainer img{
+    padding: 10px;
+    width: 45%;
+  }
+  .rev{
+    flex-direction: row-reverse;
+  }
+  .p{
+    padding: 20px;
+    margin: 10px;
+  }
+  .btn{
+    position: absolute;
+    width: 90%;
+    height: 8%;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 99;
+  }
+  .footer{
+    margin-top: 10px;
+    padding: 20px;
+  }
+  .color1{
+    background-color: #E5F0D6;
+  }
+  .bottom{
+    display: flex;
+    justify-content: space-between;
+    height: 26vh;
+  }
+  .pera{
+    position: relative;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .pera span{
+    position: absolute;
+    top: 0%;
+    width: 80%;
+    font-weight: 500;
+    font-stretch: expanded;
+    padding: 0%;
+    margin: 0%;
+  }
+  .pos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    width: 50vw;
+  }
+  .pos  p {
+    margin-top: 10px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .color2{
+    background-color: #F5DFCF;
+  }
+  .color3{
+    background-color: #FFFFFF;
+  }
+
+  .page4{
+    height: fit-content;
+  }
+  nav{
+    position: fixed;
+    top: 0%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    z-index: 99;
+    width: 98vw;
+  }
+  nav #logo img {
+    width: 80px;
+    height: 80px;
+  }
+  #logo{
+    overflow: hidden;
+    width: 110px;
+    height: 90px;
+  }
+  .nav-right{
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+  }
+  .menu{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    height:fit-content ;
+    padding: 2px;
+    color: #202020e3;
+  }
+  .menu h5:hover{
+    color: black;
+  }
+  .midbtn{
+    padding: 30px;
+    text-align: center;
+  }
+  .icon{
+    border-radius: 5px;
+    height: fit-content;
+    background-color: white;
+    width: fit-content;
+  }
+  .icon i{
+    padding: 3px;
+    margin-right: 10px;
+    font-size: 27px;
+  }
+  #page1{
+    height: 80vw;
+  }
+  .b{
+    display: flex;
+    padding: 20px;
+    margin-bottom: 10px;
+    justify-content: space-between;
+  }
+
+
+  @media (max-width:1026px) {
+    .cardcontainer{
+      padding: 10px;
+      flex-wrap: wrap;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .card{
+      position: relative;
+      width: 100vw;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .card img{
+      width: 100%;
+    }
+    .btn{
+      width: 80%;
+    }
+    .pos{
+      display: none;
+    }
+    .pera span{
+      width: 100%;
+    }
+    .nav-right{
+      width: 25vw;
+
+    }
+    nav .menu{
+      display: none;
+    }
+    .flex{
+      flex-direction: column;
+    }
+    .content{
+      font-size: x-small;
+    }
+    .bottom{
+      align-items: center;
+    }
+
+    .imgcontainer img{
+      width: 37vw;
+    }
+  }
